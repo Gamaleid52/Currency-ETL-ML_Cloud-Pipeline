@@ -6,12 +6,10 @@ import plotly.graph_objects as go
 import urllib.parse
 import time
 
-# Set Page Config
-st.set_page_config(page_title="Enterprise Big Data & ML Dashboard", page_icon="📈", layout="wide")
-
+ 
 # Database Connection Settings
-SERVER = "."
-DATABASE = "FinancialDB"
+#SERVER = "."
+#DATABASE = "FinancialDB"
 #connection_string = f"mssql+pyodbc://@{SERVER}/{DATABASE}?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
 
 
